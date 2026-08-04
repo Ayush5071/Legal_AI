@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 Overview
-Legal documents are notoriously lengthy, dense, and rich in specialized jargon, making comprehension a significant challenge. Our platform integrates a robust AI stack combining Gemini, LangChain, and DuckDuckGo to deliver end-to-end legal intelligence.
+Legal documents are notoriously lengthy, dense, and rich in specialized jargon, making comprehension a significant challenge. Our platform integrates a robust AI stack combining Gemini, LangChain, and vector search to deliver end-to-end legal intelligence. Link: https://legal-ai-zeta-five.vercel.app/upload
 
 ---
 
@@ -106,7 +106,7 @@ npm run dev
 - `POST /api/legal/clear` — Clear chat history
 
 ### Web Search & Benchmarking
-- `POST /api/websearch/search-contracts` — Find and rank similar contracts using DuckDuckGo + Gemini
+- `POST /api/websearch/search-contracts` — Find and rank similar contracts
 
 ### PDF Generation
 - `POST /api/document/generate` — Generate PDF summary of consultation
@@ -142,7 +142,7 @@ npm run dev
 
 ## 🤝 Acknowledgements
 - Built for the **Cyfuture AI Hackathon**
-- Powered by Google Gemini, LangChain, DuckDuckGo, Tesseract, PyMuPDF
+- Powered by Google Gemini, LangChain, Tesseract, PyMuPDF
 
 ---
 
