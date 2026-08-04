@@ -19,7 +19,7 @@ Legal documents are notoriously lengthy, dense, and rich in specialized jargon, 
 - **📄 Contract Upload:** Upload contracts (PDF/images) for instant analysis.
 - **📊 Analysis & Red Flag Detection:** OCR (Tesseract/Azure Vision) extracts text; LangChain + Gemini identify clauses and compliance issues.
 - **💬 Contract Chat Interface:** Chat with your document using Gemini-powered semantic chat (RAG), with contextual Q&A and clause referencing.
-- **🔍 Similar Contract Search:** DuckDuckGo scraping retrieves similar contracts; Gemini ranks them by similarity and success probability.
+- **🔍 Similar Contract Search:** BGE Base embeddings finds the most relevant legal cases from dataset by cosine similarity based on embeddings in Pinecone Vector Database. 
 - **📥 PDF Export:** Export chat transcripts and insights as polished PDFs for compliance, audit, and collaboration.
 - **🧠 Gemini Prompted Chatbot:** Domain-aware Gemini chatbot for general legal queries.
 - **Contextual Contract Benchmarking:** One-click search for similar contracts or past agreements for negotiation insights.
@@ -31,7 +31,7 @@ Legal documents are notoriously lengthy, dense, and rich in specialized jargon, 
 ## 🧑‍💻 Tech Stack
 - **Frontend:** Next.js, React, Tailwind CSS
 - **Backend:** Node.js, Express, MongoDB, Passport.js
-- **AI:** Google Gemini, LangChain, DuckDuckGo
+- **AI:** Google Gemini, LangChain
 - **OCR:** Tesseract, PyMuPDF, Python integration
 - **PDF:** pdfkit
 
